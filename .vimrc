@@ -38,7 +38,7 @@ set smartindent
 set cindent
 
 "tab 너비 설정
-set ts=4 sw=4 et
+set ts=4 sw=4
 
 "자동 인덴트 너비 설정
 set shiftwidth=4
@@ -69,9 +69,17 @@ hi IndentGuidesEven ctermbg=236
 hi IndentGuidesOdd  ctermbg=235
 
 let g:rainbow_active = 1
+let g:rainbow_ctermfgs = ['white', 'lightblue','lightred','lightgreen', 'lightyellow', 'lightmagenta', 'lightgray', 'darkblue']
+
 
 let g:gitgutter_enabled = 1
-let g:gitgutter_highlight_lines = 1
+let g:gitgutter_highlight_linenrs = 1
+hi SignColumn guibg = blue ctermbg = black 
+hi GitGutterAdd ctermfg = 2
+hi GitGutterChange ctermfg = 3
+hi GitGutterDelete ctermfg = 1
+hi GitGutterChangeDelete ctermfg = 4
+
 
 let g:NERDSpaceDelims = 1
 let g:NERDCompactSexyComs = 1
