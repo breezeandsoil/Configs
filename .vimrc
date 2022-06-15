@@ -69,7 +69,7 @@ hi IndentGuidesEven ctermbg=236
 hi IndentGuidesOdd  ctermbg=235
 
 let g:rainbow_active = 1
-let g:rainbow_ctermfgs = ['white', 'lightblue','lightred','lightgreen', 'lightyellow', 'lightmagenta', 'lightgray', 'darkblue']
+let g:rainbow_ctermfgs = ['gray', 'lightblue', 'red', 'lightgreen', 'yellow', 'lightgray', 'magenta','green', 'white']
 
 
 let g:gitgutter_enabled = 1
@@ -89,3 +89,5 @@ let g:diminactive_use_colorcolumn = 1
 hi ColorColumn ctermbg=17
 
 let g:airline#extensions#tabline#enabled = 1
+
+
